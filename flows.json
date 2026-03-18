@@ -24,5 +24,46 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "7777e055a4d8f2be",
+        "type": "function",
+        "z": "27ed17bfee2876a0",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f73785597488e39a",
+        "type": "switch",
+        "z": "27ed17bfee2876a0",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 450,
+        "y": 440,
+        "wires": [
+            []
+        ]
     }
 ]
